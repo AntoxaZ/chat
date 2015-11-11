@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0 none;
+}
+
+#div_cat {
+ display:none
+}
+
+h1 {
+ color: #A0A0A0;
+ font: 18px/15px Verdana,Geneva,Arial,Helvetica,sans-serif;
+ text-align: left
+}
+
+.clear {
+ clear: both	
+}
+
+.fl {
+ float: left
+}
+ 
+.fr {
+ float: right	
+} 
+       
+.header_all_top {
+ width: 100%;
+ height: 44px;
+ background: url('/rooms/templates/default/i/header_top.gif') repeat-x;
+ color: #ffffff;
+ padding-top: 6px;
+}
+
+.header_all_sub {
+ width: 100%;
+ height: 215px;
+ background: url('/rooms/templates/default/i/header_all_sub.gif');
+ color: #88201B;
+ font: normal 26px Arial;
+ padding-top: 40px
+}
+
+.logout {
+ float: right;
+ margin-right: 15px;
+ margin-top: 9px
+}
+
+.logout a, .logout a:visited  { 
+ font: 14px Arial; 
+ color: #fff;
+ border: 1px solid #ccc;
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+
+.logout a:hover { 
+ color: #fff; 
+ border: 1px solid red;
+ font: 14px Arial; 
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px; 
+}
+
+.main {
+ width: 70%;
+ background: #ffffff;
+ border: 1px solid #d7d7d7;
+ border-radius: 7px;
+ -moz-border-radius: 7px;
+ -khtml-border-radius: 7px;
+ -webkit-border-radius: 7px;
+ margin-bottom: 20px
+}
+
+.title {
+ background: url('/rooms/templates/default/i/header_top.gif');
+ text-align: right;
+ height: 90px;
+ background-size: cover;
+ -moz-border-radius-topleft: 7px;
+ -moz-border-radius-topright: 7px;
+ -webkit-border-top-right-radius: 7px;
+ -webkit-border-top-left-radius: 7px;
+ border-top-right-radius: 7px;
+ border-top-left-radius: 7px
+
+}
+
+.subtitle {
+ background: #eceaeb;
+ height: 31px;
+ text-align: left;
+ padding: 9px;
+ border-bottom: 1px solid #d7d7d7;
+}
+
+.content {
+ margin: 30px;
+ background: #f9f9f9;
+ border: 1px solid #d7d7d7;
+}
+
+.table_view_margin {
+ margin: 20px	
+}
+
+.table_view {
+ border: 1px solid #EEEEEE;
+ width: 100%	
+}
+
+.table_row_title {
+ font: bold 14px Arial;
+ color: #000;
+ background: #EAEAEA;
+ padding: 5px;
+ text-align: center;
+ border-bottom: 1px solid #DDDDDD;
+ border-color: #DDDDDD;
+ empty-cells: show;
+}
+
+.table_row {
+ font: 13px Arial;
+ color: #000000;
+ text-align: center;
+ padding: 5px;
+ border-bottom: 1px solid #d7d7d7;
+}
+
+.table_row_name {
+ font: 13px Arial;
+ color: #000;
+ text-align: left;
+ padding: 5px;
+ border-bottom: 1px solid #d7d7d7;
+}
+
+.delete_all {
+ margin-top: 10px	
+}
+
+.image_margin {
+ margin-top: 10px; 
+ margin-bottom: 10px
+}
+
+.maincat {
+ color: #0070BD;
+ font-size: 14px;
+}
+
+.table_row_name a, .table_row_name a:visited, .table_row_name a:active {
+ color: #0070BD;
+ font-size: 14px;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.table_row_name a:hover {
+ text-decoration: none;
+}
+
+.separator {
+ border-top: 1px dashed #C7CFCB;
+ margin: 13px 0 3px;
+}
+
+.menu_view_edit {
+ border: 1px solid #d7d7d7;
+ border-radius: 7px;
+ -moz-border-radius: 7px;
+ -khtml-border-radius: 7px;
+ -webkit-border-radius: 7px;
+ margin-right: 15px;
+ padding: 10px;
+ width: 500px
+}
+
+#list li {
+ margin: 0 0 1px;
+ padding: 8px;
+ background: #efefef;
+ color: #000000;
+ list-style: none;
+}
+
+.client_uniprice span{
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+#modal_form {
+	width: 300px; 
+	height: 300px; /* Рaзмеры дoлжны быть фиксирoвaны */
+	border-radius: 5px;
+	border: 3px #000 solid;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 50%; /* пoлoвинa экрaнa слевa */
+	margin-top: -150px;
+	margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+/* Пoдлoжкa */
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#000; /* чернaя */
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}

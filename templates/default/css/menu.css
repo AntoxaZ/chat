@@ -1,0 +1,140 @@
+.top_menu { 
+ width: 100%; 
+ height: 100%;
+ float: right;
+ margin-top: 4px
+} 
+
+ul { 
+ list-style: none; 
+}
+
+ul.dropdown li { 
+ float: left; 
+ margin-left: 10px;
+}
+
+.dropdown li a, .dropdown li a:visited  { 
+ font-size: 14px; 
+ color: #fff;
+ border: 1px solid #000;
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px; 
+}
+
+.dropdown li a:hover { 
+ color: #fff; 
+ border: 1px solid #ccc;
+ font-size: 14px;
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px; 
+}
+
+.dropdown li a, .dropdown li a:visited  { 
+ font-size: 14px; 
+ color: #fff;
+ border: 1px solid #000;
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px; 
+}
+
+.dropdown li a:hover { 
+ color: #fff; 
+ border: 1px solid #ccc;
+ font-size: 14px;
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px; 
+}
+
+.view_menu_subtitle {
+ float: left;
+ margin-left: 18px	
+}
+
+.view_menu_subtitle a, .view_menu_subtitle a:visited  { 
+ color: #88201B;
+ font: normal 26px Arial;
+ text-decoration: none
+}
+
+.view_menu_subtitle a:hover { 
+ color: #88201B;
+ font: normal 26px Arial;
+ text-decoration: underline
+}
+
+.view_menu_edit {
+ float: left;
+ margin-top: -3px	
+}
+
+.view_submenu { 
+ float: left; 
+ margin-left: 10px;
+}
+
+.view_submenu li { 
+ float: left; 
+ margin-left: 10px;
+}
+
+.view_submenu li a, .view_submenu li a:visited  { 
+ font-size: 14px; 
+ color: #8D1C1C;
+ background: #D8D8D8;
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px; 
+ border: 1px solid #ECEAEB 
+}
+
+.view_submenu li a:hover { 
+ color: #8D1C1C; 
+ background: #D8D8D8;
+ font-size: 14px;
+ text-decoration: none;
+ padding: 5px;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border: 1px solid #ccc 
+}
+
+.plus, .minus{
+	background: url('/rooms/templates/default/i/add.png');
+	width: 24px; 
+	height: 24px; 
+	cursor: pointer
+}
+
+.plus{
+	background: url('/rooms/templates/default/i/add.png');
+}
+
+.minus{
+	background: url('/rooms/templates/default/i/no.gif');
+}
+
+
+.text_before_add{
+	width: 30px;
+	float:left;
+}
+
+
+
+

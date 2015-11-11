@@ -1,0 +1,151 @@
+form {
+ margin: 0;
+ padding: 0;
+ text-align: left;
+}
+
+/*option {
+ padding-left: 5px
+}
+
+input[type="button"], input[type="submit"] {
+ border: 0
+}
+
+.form {
+ width: 350px;
+ text-align: left
+}
+
+.row {
+ font-size: 13px;
+ text-align: left;
+ padding: 5px 20px 6px 5px;
+ font-weight: bold
+}
+
+.input {
+ background: url('/magnit/templates/default/i/textinput.gif') repeat-x scroll 0 0 #ffffff;
+ border: 1px solid #D3D3D3;
+ color: #000000;
+ font-size: 15px;
+ margin-bottom: 10px;
+ padding: 7px 0;
+ text-indent: 7px;
+ width: 500px;
+}
+
+.input:focus {
+ border-color: #77b2ee;
+}
+
+.select {
+ background: url('/magnit/templates/default/i/textinput.gif') repeat-x scroll 0 0 #ffffff;
+ border: 1px solid #D3D3D3;
+ color: #000000;
+ font-size: 15px;
+ margin-bottom: 10px;
+ padding: 7px 0;
+ width: 500px;
+}
+
+.select:focus {
+ border-color: #77b2ee;
+}
+
+.button, .button:visited {
+ background: #222 url('/magnit/templates/default/i/overlay.png') repeat-x;
+ display: inline-block;
+ padding: 5px 10px 6px;
+ color: #fff;
+ text-decoration: none;
+ border-radius: 6px;
+ -moz-border-radius: 6px;
+ -webkit-border-radius: 6px;
+ -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+ -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+ text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+ border-bottom: 1px solid rgba(0,0,0,0.25);
+ position: relative;
+ cursor: pointer
+}
+
+.button:hover {
+ background-color: #111;
+ color: #fff;
+}
+
+.button:active	{
+ top: 1px;
+}
+
+.large.button, .large.button:visited {
+ font-size: 14px;
+ padding: 8px 14px 9px;
+}
+
+.blue.button, .blue.button:visited {
+ background-color: #2981e4;
+}
+
+.blue.button:hover {
+ background-color: #2575cf;
+}
+
+.red.button, .red.button:visited { 
+ background-color: #e62727; 
+}
+
+.red.button:hover { 
+ background-color: #cf2525; 
+}
+
+.orange.button, .orange.button:visited { 
+ background-color: #ff5c00; 
+ padding: 10px
+}
+
+.orange.button:hover { 
+ background-color: #d45500;
+ padding: 10px 
+}
+
+.row_radio {
+ border: 1px solid #D3D3D3;
+ margin-bottom: 10px;
+ width: 476px;
+ border-radius: 6px;
+ -moz-border-radius: 6px;
+ -webkit-border-radius: 6px;
+ margin-left: 5px
+}
+
+.row_radio:hover {
+ border: 1px solid #2981e4;
+}
+
+.notebook {
+ background: url('/magnit/templates/default/i/textinput.gif') repeat-x scroll 0 0 #ffffff;
+ border: 1px solid #D3D3D3;
+ color: #000000;
+ font-size: 15px;
+ margin-bottom: 10px;
+ padding: 7px 0;
+ text-indent: 7px;
+ width: 724px;
+ height: 100px	
+}
+
+.notebook:focus {
+ border-color: #77b2ee;
+}
+
+p.add {
+ background: #E6FFE1 url("/templates/default/i/add.gif") center no-repeat;
+ background-position: 15px 50%; 
+ text-align: left;
+ padding: 5px 20px 5px 45px;
+ border-top: 2px solid #009036;
+ border-bottom: 2px solid #009036;
+ color: #48793F;
+}*/

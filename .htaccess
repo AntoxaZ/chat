@@ -1,0 +1,18 @@
+#php_flag display_errors off
+
+RewriteEngine on
+
+# mod menu
+RewriteRule ^chat/([^/]*)/$ /chat.php?id=$1 [L]
+RewriteRule ^delete/([^/]*)/$ /delete.php?id=$1 [L]
+RewriteRule ^create_room/$ /create_room.php [L]
+RewriteRule ^privat_chat/([^/]*)/$ /chat_privat.php?id_user=$1 [L]
+RewriteRule ^registration/$ /registration.php?act=registration [L]
+RewriteRule ^registration/done/$ /registration.php?act=done [L]
+
+# capcha
+RewriteRule ^image.png$ /system/captcha.php [L]
+
+# mod login
+RewriteRule ^login/$ /login.php [L]
+RewriteRule ^logout/$ /?act=logout [L]
